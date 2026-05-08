@@ -10,7 +10,7 @@ import { toast } from 'sonner';
 import { Send, MapPin } from 'lucide-react';
 import ItineraryPanel from '@/components/ItineraryPanel';
 
-const BACKEND_URL = process.env.NEXT_PUBLIC_BACKEND_URL ?? 'http://localhost:8000';
+const BACKEND_URL = process.env.NEXT_PUBLIC_BACKEND_URL ?? 'https://backend-1074735360467.europe-west1.run.app';
 
 interface ChatPageClientProps {
   tripId?: string;

@@ -9,7 +9,7 @@ import { Plus, Trash2, X, Send } from 'lucide-react';
 import { toast } from 'sonner';
 
 const CATEGORIES = ['food', 'transport', 'hotel', 'activity', 'other'] as const;
-const BACKEND_URL = process.env.NEXT_PUBLIC_BACKEND_URL ?? 'http://localhost:8000';
+const BACKEND_URL = process.env.NEXT_PUBLIC_BACKEND_URL ?? 'https://backend-1074735360467.europe-west1.run.app';
 
 interface ExpensesTabProps { tripId: string }
 
