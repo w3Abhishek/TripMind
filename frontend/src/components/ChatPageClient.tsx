@@ -205,7 +205,9 @@ export default function ChatPageClient({ tripId: initialTripId }: ChatPageClient
               key={i}
               message={msg}
               onAction={sendMessage}
-              onViewTrip={(id) => router.push(`/trip/${id}`)}
+              onViewTrip={(_) => {
+                if (tripId) router.push(`/trip/${tripId}`);
+              }}
             />
           ))}
 
